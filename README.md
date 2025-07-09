@@ -8,7 +8,7 @@ A beginner-friendly project to predict smart home electricity consumption using 
 - Real-time prediction API with feature importance and explanations
 - Containerized with Docker
 - CI/CD with GitHub Actions
-- Deployable to AWS Cloud
+- **Cloud deployment (AWS) is a future/optional step**
 
 ## Project Structure
 ```
@@ -77,7 +77,7 @@ docker run -p 8000:8000 smart-energy-predictor
 - **GET /feature-importance**: See which features most influence the model.
 
 ## Deployment
-- Ready for deployment to AWS (Elastic Beanstalk, ECS, etc.)
+- **Cloud deployment (AWS, etc.) is a future/optional step.**
 
 ---
 This project is designed for learning and can be extended for real-world smart home energy applications. 

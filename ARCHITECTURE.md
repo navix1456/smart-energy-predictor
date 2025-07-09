@@ -33,14 +33,16 @@ This architecture describes the flow of data and processing steps for predicting
    - Package the application for easy deployment
    - Tool: Docker
 
-7. **CI/CD and Cloud Deployment**
-   - Automate testing and deployment
-   - Deploy to AWS Cloud
-   - Tool: GitHub Actions (CI/CD), AWS (deployment)
+7. **CI/CD**
+   - Automate testing and deployment pipeline
+   - Tool: GitHub Actions (CI/CD)
+
+8. **Cloud Deployment (Future/Optional)**
+   - Deploy to AWS Cloud or other providers (future step)
 
 ## Data Flow
 Dataset → Preprocessing → Model Training → Evaluation → Deployment (API) → Real-time Predictions
 
 ---
 
-We will implement each stage step by step, testing as we go. 
+We have completed all local, Docker, and CI/CD steps. Cloud deployment can be done in the future as needed. 

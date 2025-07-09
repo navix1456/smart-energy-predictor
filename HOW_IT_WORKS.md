@@ -8,7 +8,8 @@
 5. **API Deployment**: Serves predictions and explanations via a FastAPI app.
 6. **Explainability**: Each prediction includes the top contributing features and whether the value is above or below the dataset average.
 7. **Feature Importance**: The API provides a global view of which features most influence the model.
-8. **Containerization & CI/CD**: The app is packaged with Docker and tested/built automatically with GitHub Actions.     
+8. **Containerization & CI/CD**: The app is packaged with Docker and tested/built automatically with GitHub Actions.
+9. **Cloud deployment is a future/optional step.**
 
 ## API Endpoints
 - **POST /predict**
